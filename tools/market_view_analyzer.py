@@ -27,7 +27,7 @@ Example:
     print(f"Overall market sentiment: {sentiment_data['overall_sentiment']}")
     ```
 
-Author: [Your Name]
+Author: Aniket Hinagne
 Version: 2.0.0
 Last Updated: 2024-01-27
 """
@@ -221,4 +221,3 @@ def calculate_historical_trend(
     df_news = pd.DataFrame(news_sentiments)
     df_social = pd.DataFrame(social_sentiments)
 
-    # Resample to daily frequency

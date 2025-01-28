@@ -9,6 +9,18 @@ Discover how to build a cutting-edge customer support system that leverages AI t
 Full Article : [https://medium.com/@learn-simplified/self-learning-customer-support-desk-960c92c6e85b
 
 
+| Category | Technologies | Purpose |
+|----------|--------------|---------|
+| Frontend Framework | Streamlit | Web interface for stock analysis application |
+| AI/ML Framework | CrewAI, LangChain, Ollama | AI agent orchestration and LLM integration |
+| Data Processing | Pandas, NumPy, SciPy | Data manipulation and statistical analysis |
+| Financial Data | yfinance | Fetching stock market data and financial information |
+| Visualization | Plotly | Interactive financial charts and data visualization |
+| Technical Analysis | TA-Lib (ta) | Technical indicators and pattern recognition |
+| Sentiment Analysis | TextBlob | Natural language processing for market sentiment |
+
+
+
 ## Introduction
 Imagine a customer support system that doesn’t just respond to queries but truly understands them. A system that learns from each interaction, adapts to new challenges, and gets smarter over time. That’s not science fiction — it’s what we’re building today.
 
