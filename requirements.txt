@@ -1,0 +1,13 @@
+crewai
+langchain
+ollama
+yfinance
+streamlit
+pandas
+plotly
+scipy
+numpy
+textblob
+ta
+langchain_community
+crewai_tools
