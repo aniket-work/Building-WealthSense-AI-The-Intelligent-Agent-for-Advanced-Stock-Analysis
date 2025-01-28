@@ -1,13 +1,16 @@
-# Lets Build Trading Terminal Using AI Agents
+# Building WealthSense AI: The Intelligent Agent for Advanced Stock Analysis
 
-Practical Guide : Lets Build Trading Terminal Using AI Agents
+Practical Guide : Revolutionizing Investment Strategies with AI-Powered Stock Insights
 
 TL;DR
 
-Discover how to build a cutting-edge customer support system that leverages AI to automatically understand and route customer inquiries. This practical guide walks through creating a self-learning support desk using Python, Streamlit, and AI Agents, demonstrated through a telecom company use case. Perfect for businesses looking to modernize their customer service operations with AI that adapts and improves over time.
+WealthSense AI represents a sophisticated approach to stock market analysis by combining multiple AI agents, each specialized in different aspects of financial analysis. The system leverages CrewAI and Ollama models to process market data, conduct technical and fundamental analysis, assess risks, and evaluate market sentiment. Through a Streamlit dashboard, it delivers comprehensive investment insights in real-time, demonstrating how AI can transform traditional financial analysis into an automated, intelligent process.
 
-Full Article : [https://medium.com/@learn-simplified/self-learning-customer-support-desk-960c92c6e85b
+Full Article : [https://medium.com/@learn-simplified/building-wealthsense-ai-the-intelligent-agent-for-advanced-stock-analysis-f50da1eef918
 
+
+
+Tech stack
 
 | Category | Technologies | Purpose |
 |----------|--------------|---------|
@@ -22,47 +25,35 @@ Full Article : [https://medium.com/@learn-simplified/self-learning-customer-supp
 
 
 ## Introduction
-Imagine a customer support system that doesn’t just respond to queries but truly understands them. A system that learns from each interaction, adapts to new challenges, and gets smarter over time. That’s not science fiction — it’s what we’re building today.
-
-In today’s digital age, customer support faces unprecedented challenges. Support teams are overwhelmed with tickets, customers demand instant responses, and businesses struggle to maintain quality while scaling operations. Traditional support systems are like static maps in a constantly changing landscape — they quickly become outdated and inefficient.
-
-Enter the Self-Learning Customer Support Desk. This isn’t just another ticketing system; it’s an intelligent assistant that grows with your business, understands your customers’ needs, and helps your support team work smarter, not harder.
+In today’s fast-paced financial markets, making informed investment decisions requires processing vast amounts of data in real-time — a task that’s becoming increasingly challenging for human analysts alone. Enter WealthSense AI, an innovative platform that brings together artificial intelligence and traditional financial expertise to create a powerful tool for stock market analysis. Imagine having a team of tireless financial experts who can analyze markets 24/7, spot patterns in milliseconds, and process years of historical data in moments — that’s the power of WealthSense AI.
    
 ## What's This Project About
 
-This article takes you on a practical journey through building a modern, AI-powered customer support system. We’re creating more than just code; we’re building a solution that could transform how businesses handle customer interactions.
+This article takes you on a journey through building a sophisticated AI-powered stock analysis system. At its core, WealthSense AI utilizes a multi-agent architecture where different AI specialists work together, much like a team of financial experts. The technical analyst agent scrutinizes price patterns and technical indicators, while the fundamental analyst digs deep into company financials. A sentiment analyst monitors market mood through news and social media, and a risk assessment specialist evaluates potential dangers.
 
-Our system includes several sophisticated components:
-
-- A dynamic intent classification engine that automatically understands customer queries
-- An intuitive interface for support teams to manage and customize intent labels
-- Real-time analysis capabilities that provide instant insights
-- A self-learning mechanism that improves accuracy over time
-- A flexible architecture that can adapt to different business needs
-
-Using a telecom company as our example, we’ll see how this system handles real-world scenarios: from billing disputes and technical issues to service upgrades and coverage problems. You’ll learn how the system classifies incoming messages, routes them to appropriate departments, and helps support agents respond more effectively.
+The system integrates various modern technologies: the CrewAI framework orchestrates the AI agents, yfinance provides real-time market data, technical analysis tools process market patterns, and Plotly creates interactive visualizations. All of this comes together in a user-friendly Streamlit interface that makes complex financial analysis accessible to both professionals and retail investors.
 
 ## Why Work on It?
 
-In today’s business landscape, AI isn’t just an advantage — it’s becoming a necessity. This article is crucial for several reasons:
+The integration of AI in business isn’t just a trend — it’s becoming a necessity for survival and growth in modern markets. This article demonstrates how businesses can practically implement AI solutions through WealthSense AI’s example. Here’s why this matters:
 
-First, it addresses real business challenges. Companies are struggling with:
+Financial Analysis Evolution:
 
-- Increasing support ticket volumes
-- Rising customer expectations for instant responses
-- The need to maintain consistent service quality
-- Difficulties in scaling support operations efficiently
-- The challenge of training and maintaining support staff
+- Traditional analysis methods can’t keep up with the volume and speed of modern markets
+- AI can process massive amounts of data and identify patterns humans might miss
+- Real-time analysis becomes possible across multiple markets simultaneously
 
-- Second, it provides practical implementation insights. You’ll learn:
+Business Implementation:
 
-- How to structure an AI-powered support system
-- Ways to integrate machine learning into existing workflows
-- Techniques for building self-improving systems
-- Methods for managing and updating intent classifications
-- Strategies for scaling support operations
+- Shows how to break down complex problems into manageable AI tasks
+- Demonstrates practical integration of multiple AI agents for better decision-making
+- Provides a blueprint for scaling analysis capabilities without proportional cost increase
 
-Third, while our example uses a fictional telecom company, the principles and implementation can be adapted to any industry. Whether you’re in retail, healthcare, finance, or technology, the core concepts remain valuable.
+Competitive Advantage:
+
+- Helps businesses understand how to leverage AI for market intelligence
+- Shows how to combine different data sources for more accurate insights
+- Demonstrates building user-friendly interfaces for complex AI systems
 
 ## Architecture
 
@@ -70,9 +61,6 @@ Third, while our example uses a fictional telecom company, the principles and im
 
 
 ![Design Diagram](design_docs/design.jpg)
-
-mplex, hard-to-maintain system into a streamlined, efficient solution. The visual approach to code analysis proved invaluable in identifying and fixing issues before they became problems.
-
 
 
 # Tutorial: Lets Build Trading Terminal Using AI Agents
@@ -100,11 +88,6 @@ mplex, hard-to-maintain system into a streamlined, efficient solution. The visua
        source Lets-Build-Trading-Terminal-Using-AI-Agents/bin/activate
        ```
    
-
-cd C:\Users\worka\Downloads\Financial-Analysis--Multi-Agent-Open-Source-LLM-main\Financial-Analysis--Multi-Agent-Open-Source-LLM-main
-Lets-Build-Trading-Terminal-Using-AI-Agents\Scripts\activate
-streamlit run app.py
-
 
 # Installation and Setup Guide
 
